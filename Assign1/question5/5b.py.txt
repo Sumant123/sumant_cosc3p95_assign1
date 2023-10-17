@@ -1,0 +1,20 @@
+def processString(input_str):
+    output_str = ""
+    for char in input_str:
+        if char.isupper():
+            output_str += char.lower()
+        elif char.isnumeric():
+            output_str += char*2
+        else:
+            output_str += char.upper()
+    return output_str
+    
+test = ["abcdefG1", "CCDDEExy", "1234567b", "8665"]
+
+def delta(input_str, original):
+    
+    return input_str 
+
+for input_str in test:
+    reduced = delta(input_str, input_str)
+    print(f"Reduced version: '{reduced}'")
